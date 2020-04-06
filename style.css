@@ -1,0 +1,23 @@
+nav.topnav {
+  list-style-type: none;
+  margin: 0, auto;
+  padding: 2px;
+  width: 45%;
+  background-color: #f1f1f1;
+  height: -10px;
+  position: horizontal; 
+  overflow: auto; 
+}
+body {
+  margin: 0, auto;
+  border-bottom-left-radius: 10px 22px;
+  padding: 8px;
+  background-position: 10%;
+  background-blend-mode: color-burn;
+  color: blue;
+  background: rgb(206, 121, 52);
+  text-overflow: inherit;
+}
+#picofme {
+  nav-right: inherit;
+}
