@@ -1,4 +1,4 @@
-// 'use strict.';
+'use strict.';
 // // Let's talk about me game
 // // Give user a set amount of time to read biography
 // // Intro will be three minutes of read time followed by quiz
@@ -17,10 +17,10 @@ alert('Thanks for visiting my page ' + yourName + ' please take the quiz by clic
 // // var oneSecond = 1000;
 // // var oneMinute = oneSecond * 60;
 // // var thirtySeconds = oneSecond * 30;
-// // console.log (oneMinute);
+// // .log (oneMinute);
 // // onclick (toFunction)= setTimeout (getReady, thirtySeconds);
 // // var getReady = alert ('Get Ready');
-// // console.log (getReady + 'Get Ready');  
+// //  (getReady + 'Get Ready');  
 
 
 var numQuestions = 7;
@@ -34,12 +34,10 @@ function Question1() {
   const questionOneAnswer = ('yes');
   var questionOneResponse = prompt('Is my favorite color blue').toLowerCase();
   if (questionOneResponse === questionOneAnswer) {
-    // console.log('Great Job!);
     alert('Great Job!');
     questionRight++;
   } else {
     alert('Try Again');
-    // console.log ('Try Again');
   }
 }
 
@@ -47,12 +45,10 @@ function Question2() {
   const questionTwoAnswer = ('no')
   var questionTwoResponse = prompt('Did I grow up in Philadelphia?').toLowerCase();
   if (questionTwoResponse === questionTwoAnswer) {
-    // console.log ('You got it!');
     alert('You got it!');
     questionRight++;
   } else {
     alert('So close!');
-    // console.log ('So close!');
   }
 }
 
@@ -60,12 +56,10 @@ function Question3() {
   const questionThreeAnswer = ('yes')
   var questionThreeResponse = prompt('Did I play goalkeeper in soccer?').toLowerCase();
   if (questionThreeResponse === questionThreeAnswer) {
-    // console.log ('Thumbs up!');
     alert('Thumbs up!');
     questionRight++;
   } else {
     alert('Try Again');
-    // console.log ('Try Again');
   }
 }
 
@@ -73,12 +67,10 @@ function Question4() {
   const questionFourAnswer = ('yes');
   var questionFourResponse = prompt('Was I in the Army').toLowerCase();
   if (questionFourResponse === questionFourAnswer) {
-    // console.log('Yay you did it!');
     alert('Yay you did it!');
     questionRight++;
   } else {
     alert('Come on stinkbrain');
-    // console.log('Come on stinkbrain');
   }
 }
 
@@ -86,12 +78,10 @@ function Question5() {
   const questionFiveAnswer = ('yes')
   var questionFiveResponse = prompt('Did I join the Army in 2013').toLowerCase();
   if (questionFiveResponse === questionFiveAnswer) {
-    // console.log('Heck yes');
     alert('Heck Yes');
     questionRight++;
   } else {
     alert('Try again sucka');
-    // // console.log ('Try again sucka');
   }
 }
 
@@ -114,7 +104,6 @@ function Question6() {
     var questionSix = prompt('How many years did I serve in the Army? 1-20');
     if (questionSix == 7) {
       alert('Good Job')
-      // console.log (questionSix + ' Good Job');
       questionRight++
       break;
     } else if (questionSix < 7) {
